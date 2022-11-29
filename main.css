@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Dancing+Script:wght@500&family=Darker+Grotesque:wght@500&family=EB+Garamond&family=Montserrat:wght@500&family=Poppins&family=Quicksand:wght@500&family=Tinos&family=Zilla+Slab:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  height: auto;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background-color: darkgray;
+}
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, red, blue);
+}
+/* .head{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
+} */
+.main{
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+   /* bosba-list */
+.bosba {
+    --spacing: 25px;
+    --columns: 3;
+    margin-left: calc(-1 * var(--spacing));
+  }
+  .ream {
+    width: calc(calc(100% / var(--columns)) - var(--spacing));
+    margin-left: var(--spacing);
+    margin-bottom: var(--spacing);
+  }
+  .ream-title {
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+  }
+
+    /* bosba-list */
+.cards {
+    --spacing: 25px;
+    --columns: 1;
+    margin-left: calc(-1 * var(--spacing));
+  }
+  .card {
+    width: calc(calc(100% / var(--columns)) - var(--spacing));
+    margin-left: var(--spacing);
+    margin-bottom: var(--spacing);
+  }
+  .card-title {
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+  }
+
+
+  /* respon */
+  /* 320-480 */
+@media (min-width: 320px) and (max-width: 480px){
+    .code-item{
+        width: 100%;
+    }
+    .head .head-item{
+        padding: 10px;
+    }
+    .head .logo-image{
+        width: 120px;
+    }
+    .head .head-menu,
+    .head .sign-in{
+        display: none;
+    }
+    .head .close-button{
+        display: block;
+    }
+    /* main */
+    /* banner */
+    .main .main-item2{
+        padding: 20px;
+    }
+    .main .item2-title{
+        font-size: 20px;
+    }
+    /* KHÁM PHÁ IWIN88 */
+    .main .main-item3{
+        padding: 15px;
+    }
+    .main .khampha{
+        padding: 0px;
+    }
+    .main .play-img{
+        width: 100%;
+    }
+    .main .down-title{
+        margin: 0px;
+        font-size: 15px;
+    }
+    .main .down-img{
+        margin: 0px;
+    }
+    /* dropdown */
+    .main .dropdown{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main .dropdown-item{
+        margin-top: 10px;
+    }
+    /* card */
+    .main .bosba{
+        --columns: 1;
+    }
+    /* footer */
+    .footer .footer-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footer-list{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .footer-img{
+        width: 120px;
+    }
+}
+
+/* 481-768 */
+@media (min-width: 481px) and (max-width: 767px){
+    .code-item{
+        width: 100%;
+    }
+    .head .head-item{
+        padding: 10px;
+    }
+    .head .logo-image{
+        width: 120px;
+    }
+    .head .head-menu,
+    .head .sign-in{
+        display: none;
+    }
+    .head .close-button{
+        display: block;
+    }
+    /* main */
+    /* banner */
+    .main .main-item2{
+        padding: 20px;
+    }
+    .main .item2-title{
+        font-size: 20px;
+    }
+    /* KHÁM PHÁ IWIN88 */
+    .main .main-item3{
+        padding: 15px;
+    }
+    .main .khampha{
+        padding: 0px;
+    }
+    .main .play-img{
+        width: 100%;
+    }
+    .main .down-title{
+        margin: 0px;
+        font-size: 15px;
+    }
+    .main .down-img{
+        margin: 0px;
+    }
+    /* dropdown */
+    .main .dropdown{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main .dropdown-item{
+        margin-top: 10px;
+    }
+    /* card */
+    .main .bosba{
+        --columns: 2;
+    }
+    /* footer */
+    .footer .footer-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footer-list{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .footer-img{
+        width: 120px;
+    }
+}
+
+
+/* 768-1025 */
+@media (min-width: 768px) and (max-width: 1025px){
+    .code-item{
+        width: 100%;
+    }
+    .head .head-item{
+        padding: 10px;
+    }
+    .head .logo-image{
+        width: 120px;
+    }
+    .head .head-menu,
+    .head .sign-in{
+        display: none;
+    }
+    .head .close-button{
+        display: block;
+    }
+    /* main */
+    /* banner */
+    .main .main-item2{
+        padding: 20px;
+    }
+    .main .item2-title{
+        font-size: 20px;
+    }
+    /* KHÁM PHÁ IWIN88 */
+    .main .main-item3{
+        padding: 15px;
+    }
+    .main .khampha{
+        padding: 0px;
+    }
+    .main .play-img{
+        width: 100%;
+    }
+    .main .down-title{
+        margin: 0px;
+        font-size: 15px;
+    }
+    .main .down-img{
+        margin: 0px;
+    }
+    /* dropdown */
+    .main .dropdown{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main .dropdown-item{
+        margin-top: 10px;
+    }
+    /* card */
+    .main .bosba{
+        --columns: 3;
+    }
+    /* footer */
+    .footer .footer-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footer-list{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .footer-img{
+        width: 120px;
+    }
+}
